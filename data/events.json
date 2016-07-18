@@ -1,0 +1,16 @@
+[
+  {
+    "id":0,
+    "name":"Home building",
+    "date":"07/06/2016",
+    "signUP": false,
+    "host":"HFH"
+  },
+  {
+  "id":1,
+  "name": "Feed the homeless",
+  "date": "08/26/2016",
+  "signUP": false,
+  "host": "Salvation Army"
+}
+]

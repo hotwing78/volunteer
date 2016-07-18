@@ -1,23 +1,25 @@
 {
   "name": "volunteer",
   "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "dependencies": {},
-  "devDependencies": {
-    "babel-preset-es2015": "^6.9.0",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
-    "gulp-browserify": "^0.5.1",
-    "gulp-sass": "^2.3.2"
-  },
+  "description": "A volunteer task tracking list",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Updawwg/Updawwg.git"
+    "url": "git+https://github.com/hotwing78/volunteer.git"
   },
   "author": "Damon",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hotwing78/volunteer/issues"
+  },
+  "homepage": "https://github.com/hotwing78/volunteer#readme",
+  "dependencies": {
+    "boom": "^3.2.2",
+    "hapi": "^13.5.0",
+    "inert": "^4.0.1"
+  }
 }

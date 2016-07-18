@@ -8,8 +8,14 @@ let browserify = require('gulp-browserify');
 // Default runner
 gulp.task('default', ['html','tmpl','css','js']);
 
-gulp.task('html', function() {
-    gulp.src('./index.html')
+gulp.task('html', function(){
+  gulp.src('./templates/*.html')
+    .pipe(gulp.dest('./public/templates'));
+
+  gulp.src('./templates/directives/*.html')
+    .pipe(gulp.dest('./public/directives'));
+
+  return gulp.src('./index.html')
     .pipe(gulp.dest('./public'));
 });
 
